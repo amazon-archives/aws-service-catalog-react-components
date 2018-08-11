@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products component should render a table with products 1`] = `
+<div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    condensed={false}
+    hover={false}
+    responsive={false}
+    striped={true}
+  >
+    <thead>
+      <tr>
+        <th>
+          Id
+        </th>
+        <th>
+          Resource
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="abc"
+      >
+        <td>
+          1
+        </td>
+        <td>
+          Linux Server
+           - 
+        </td>
+        <td>
+          Amazon AMI
+        </td>
+        <td>
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="btn btn-primary btn-sm"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Launch
+          </Button>
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</div>
+`;
+
+exports[`Products component should render an empty table when no products found 1`] = `
+<div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    condensed={false}
+    hover={false}
+    responsive={false}
+    striped={true}
+  >
+    <thead>
+      <tr>
+        <th>
+          Id
+        </th>
+        <th>
+          Resource
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </Table>
+</div>
+`;

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProvisionedProducts component should render a table with provisioned products 1`] = `
+<div>
+  <a
+    className="pull-right"
+    onClick={[Function]}
+  >
+    Refresh
+  </a>
+  <Table
+    bordered={false}
+    bsClass="table"
+    condensed={false}
+    hover={false}
+    responsive={false}
+    striped={true}
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          CreatedTime
+        </th>
+        <th>
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="123"
+      >
+        <td>
+          Dingler Server
+        </td>
+        <td>
+          <Label
+            bsClass="label"
+            bsStyle="primary"
+          />
+        </td>
+        <td>
+          Tue, 25 Aug 1970 00:33:02 GMT
+        </td>
+        <td>
+           
+          <button
+            className="btn btn-sm btn-primary"
+            onClick={[Function]}
+          >
+            Details
+          </button>
+           
+          <button
+            className="btn btn-primary btn-sm"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Terminate
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</div>
+`;
+
+exports[`ProvisionedProducts component should render an empty table when no provisioned products found 1`] = `
+<div>
+  <a
+    className="pull-right"
+    onClick={[Function]}
+  >
+    Refresh
+  </a>
+  <Table
+    bordered={false}
+    bsClass="table"
+    condensed={false}
+    hover={false}
+    responsive={false}
+    striped={true}
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          CreatedTime
+        </th>
+        <th>
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </Table>
+</div>
+`;
