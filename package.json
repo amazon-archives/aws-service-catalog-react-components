@@ -1,6 +1,6 @@
 {
   "name": "aws-service-catalog-react-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Components for AWS Service Catalog",
   "main": "build/index.js",
   "author": {
