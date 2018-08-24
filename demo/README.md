@@ -7,7 +7,7 @@ This project uses AWS Amplify and authenticates against Cognito. End-users need 
 
 ## Configuration
 For this project to work, you need to create a `config.json` and place it under `src`. The content of the file should 
-look something like this: (Replace the values with the correct ones from your Cognito Pool)
+look like this: (Replace the values with the correct ones from your Cognito User Pool and Identity Pool)
 
 ```json
 {
@@ -17,11 +17,18 @@ look something like this: (Replace the values with the correct ones from your Co
 }
 ``` 
 
-## Available Scripts
+## Install
+```bash
+npm install && yarn install
+```
 
-In the project directory, you can run:
+## Run it locally
 
-### `npm start`
+In the project directory, run:
+
+```bash
+npm start
+```
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
