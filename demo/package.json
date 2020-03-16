@@ -9,7 +9,7 @@
     "bootstrap": "^3.4.1",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.4.2",
     "react-notifications": "^1.4.3"
   },
   "devDependencies": {
